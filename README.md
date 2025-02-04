@@ -38,6 +38,6 @@ Notes:
 2.The tests are designed to run both individually and sequentially(manageable from wdio.config.js file). 
 3.Allure reports are generated after each execution for detailed insights. 
 4.To run the tests use command --> npm run wdio 
-5.To run the report use command --> npm run getReport 
+5.To run the report use command --> npm run getReport  
 
 
