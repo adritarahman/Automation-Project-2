@@ -5,7 +5,7 @@ This project contains an automation test suite with 3 essential tasks for verify
 Task 1: 
 To log in with an invalid user id.
 
-1.Verify the error message.
+1.Verifying the error message.
 
 Task 2:
 To complete a purchase journey with a valid user id.
