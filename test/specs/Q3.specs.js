@@ -19,7 +19,7 @@ let ProductPrice=0;
 
 let SuccessfulOrderMessage="Thank you for your order!";
 
-describe("Purchase With Glitch User",()=>{
+describe("Purchase Journey With Glitch User",()=>{
     
     it("Login with glitch user",async()=>{
 
