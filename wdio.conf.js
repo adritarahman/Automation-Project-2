@@ -1,3 +1,8 @@
+let question1='./test/specs/Q1.specs.js';
+let question2='./test/specs/Q2.specs.js';
+let question3='./test/specs/Q3.specs.js';
+
+
 exports.config = {
     //
     // ====================
@@ -21,8 +26,19 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/*.js'
+        //'./test/specs/**/*.js'
+        //question1,
+        question2,
+       // question3
     ],
+
+    suites:{
+        
+       // test1:[question1],
+        test2:[question2],
+       // test3:[question3]
+
+     },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -43,7 +59,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -197,6 +213,7 @@ exports.config = {
      * Hook that gets executed before the suite starts
      * @param {object} suite suite details
      */
+    
     beforeSuite: async function (suite) {
         await browser.maximizeWindow();
         await browser.url(this.baseUrl);
