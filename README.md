@@ -9,22 +9,35 @@ Task 2:
 To complete a purchase journey with a valid user id.
 
 1.Logging in with a valid user id.
-2.Adding products to cart
+
+2.Adding products to cart.
+
 3.Verifying products name and total price in cart.
+
 4.Resetting the app state and logging out.
 
 Task 3:
 To complete the purchase journey with a valid user id.
+
 1.Logging in with a valid user id.
+
 2.filtering the products by name (Z to A).
+
 3.Adding the first product to cart.
+
 4.Verifying product name and total price in cart.
+
 5.Resetting the app state and logging out.
 
+
 Tools and Frameworks Used:
-Testing Framework: WebdriverIO
-Reporting: Allure Reporter
-Language: JavaScript
+
+1.Testing Framework: WebdriverIO
+
+2.Reporting: Allure Reporter
+
+3.Language: JavaScript
+
 
 Notes:
 Ensure the e-commerce app is running before executing the tests.
