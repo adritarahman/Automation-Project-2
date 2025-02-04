@@ -9,6 +9,7 @@ describe("Login with invalid credentials",()=>{
     it("LogIn with locked user",async()=>{
       await logInActions.inputUserName(lockedOutUsername);
       await logInActions.inputPassword(password);
+      await browser.pause(1000);
       await logInActions.clickOnLogInBtn();
     });
 

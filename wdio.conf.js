@@ -27,16 +27,16 @@ exports.config = {
     //
     specs: [
         //'./test/specs/**/*.js'
-        //question1,
+        question1,
         question2,
-       // question3
+        question3
     ],
 
     suites:{
         
-       // test1:[question1],
+        test1:[question1],
         test2:[question2],
-       // test3:[question3]
+        test3:[question3]
 
      },
     // Patterns to exclude.
